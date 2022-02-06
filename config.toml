@@ -1,0 +1,51 @@
+# The URL the site will be built for
+base_url = "https://rust4bio.github.io"
+
+title = "Rust for Bioinformatics"
+description = "Begin, Advance and Master Rust for Bioinformatics"
+default_language = "en"
+
+theme = "dinkleberg"
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "kronuz"
+
+[extra]
+# Put all your custom variables here
+
+blog_logo = "/img/rust4bio.png" #will appear on top header
+blog_title = "rust::bioinformatics" #will appear on top header after logo
+
+label_tags = "Tags"
+label_tag = "Tag"
+label_categories = "Categories"
+label_category = "Category"
+label_relative_posts = "Relative posts"
+label_next = "Next"
+label_previous = "Previous"
+label_page = "Page"
+label_of = "of"
+label_minutes = "minutes"
+
+og_image = "img/rust4bio_banner.png" # Image that will appear on social media
+og_alt_image = "Rust for Bioinformatics" # Alt for og_image
+og_site_name = "" # Site Name for Open Graphic
+keywords = ["Rust", "Bioinformatics"] # Keywords for SEO
+
+educational_use = "knowledge share" # OPTIONAL
+copyright_year = "2021 - 2022" # OPTIONAL
+
+twitter_username="@rust4bio" # OPTIONAL, Twitter User to help with metrics
+
+## Sidebar automatic links
+sidebar = [
+    {name = "Social", urls=[
+        {name="twitter", url="https://twitter.com/rust4bio"},
+        {name="Github", url="https://github.com/rust4bio"},
+    ]}
+]
